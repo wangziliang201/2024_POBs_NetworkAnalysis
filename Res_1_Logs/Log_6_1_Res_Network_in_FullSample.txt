@@ -1,0 +1,35 @@
+Smallest EBIC = 88184.53 correspoding lambda = 1.73 * 10^-3
+
+=== Correlation Stability Analysis === 
+
+Sampling levels tested:
+   nPerson Drop%   n
+1     1796  75.0 513
+2     2355  67.2 501
+3     2914  59.4 550
+4     3472  51.7 523
+5     4031  43.9 506
+6     4590  36.1 496
+7     5149  28.3 428
+8     5707  20.6 476
+9     6266  12.8 519
+10    6825   5.0 488
+
+Maximum drop proportions to retain correlation of 0.7 in at least 95% of the samples:
+
+betweenness: 0.672 
+  - For more accuracy, run bootnet(..., caseMin = 0.594, caseMax = 0.75) 
+
+closeness: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+edge: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+strength: 0.672 
+  - For more accuracy, run bootnet(..., caseMin = 0.594, caseMax = 0.75) 
+
+Accuracy can also be increased by increasing both 'nBoots' and 'caseN'.    id1    id2     measure         lower        upper significant
+1 PUS_6 PUSN_4 betweenness -24.000000000 36.000000000       FALSE
+2 PUS_6 PUSN_4   closeness  -0.000634282  0.000169575       FALSE
+3 PUS_6 PUSN_4    strength  -0.233908523  0.159032491       FALSE

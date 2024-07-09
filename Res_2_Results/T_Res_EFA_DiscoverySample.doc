@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset='utf-8'>
+<title></title>
+<style>
+body, pre {font-size: 10.5pt; font-family: Times New Roman;}
+p {margin: 0px;}
+table {border-collapse: collapse; border-spacing: 0px; color: #000000;
+       border-top: 2px solid #000000; border-bottom: 2px solid #000000;}
+table thead th {border-bottom: 1px solid #000000;}
+table th, table td {padding-left: 5px; padding-right: 5px; height: 19px;}
+</style>
+</head>
+
+<body>
+<p>Factor Loadings (Rotated) (Sorted by Size):</p>
+<table>
+<thead>
+<tr> <th align='left'></th> <th align='right'>PA2</th> <th align='right'>PA3</th> <th align='right'>PA1</th> <th align='right'>Communality</th> </tr>
+</thead>
+<tbody>
+<tr> <td align='left'>PUVG_2</td> <td align='right'>0.722</td> <td align='right'>0.208</td> <td align='right'>0.170</td> <td align='right'>0.594</td> </tr>
+<tr> <td align='left'>PUVG_1</td> <td align='right'>0.706</td> <td align='right'>0.218</td> <td align='right'>0.112</td> <td align='right'>0.558</td> </tr>
+<tr> <td align='left'>PUVG_4</td> <td align='right'>0.696</td> <td align='right'>0.161</td> <td align='right'>0.171</td> <td align='right'>0.539</td> </tr>
+<tr> <td align='left'>PUVG_3</td> <td align='right'>0.683</td> <td align='right'>0.227</td> <td align='right'>0.123</td> <td align='right'>0.533</td> </tr>
+<tr> <td align='left'>PUVG_6</td> <td align='right'>0.661</td> <td align='right'>0.161</td> <td align='right'>0.100</td> <td align='right'>0.473</td> </tr>
+<tr> <td align='left'>PUVG_5</td> <td align='right'>0.660</td> <td align='right'>0.125</td> <td align='right'>0.162</td> <td align='right'>0.477</td> </tr>
+<tr> <td align='left'>PUVG_7</td> <td align='right'>0.645</td> <td align='right'>0.155</td> <td align='right'>0.189</td> <td align='right'>0.475</td> </tr>
+<tr> <td align='left'>PUVG_9</td> <td align='right'>0.633</td> <td align='right'>0.066</td> <td align='right'>0.146</td> <td align='right'>0.426</td> </tr>
+<tr> <td align='left'>PUVG_8</td> <td align='right'>0.615</td> <td align='right'>0.253</td> <td align='right'>0.126</td> <td align='right'>0.458</td> </tr>
+<tr> <td align='left'>PUS_5</td> <td align='right'>0.225</td> <td align='right'>0.675</td> <td align='right'>0.297</td> <td align='right'>0.594</td> </tr>
+<tr> <td align='left'>PUS_4</td> <td align='right'>0.190</td> <td align='right'>0.644</td> <td align='right'>0.223</td> <td align='right'>0.500</td> </tr>
+<tr> <td align='left'>PUS_3</td> <td align='right'>0.174</td> <td align='right'>0.625</td> <td align='right'>0.180</td> <td align='right'>0.452</td> </tr>
+<tr> <td align='left'>PUS_6</td> <td align='right'>0.213</td> <td align='right'>0.620</td> <td align='right'>0.277</td> <td align='right'>0.507</td> </tr>
+<tr> <td align='left'>PUS_1</td> <td align='right'>0.181</td> <td align='right'>0.570</td> <td align='right'>0.168</td> <td align='right'>0.386</td> </tr>
+<tr> <td align='left'>PUS_2</td> <td align='right'>0.212</td> <td align='right'>0.561</td> <td align='right'>0.259</td> <td align='right'>0.427</td> </tr>
+<tr> <td align='left'>PUSN_1</td> <td align='right'>0.108</td> <td align='right'>0.168</td> <td align='right'>0.667</td> <td align='right'>0.485</td> </tr>
+<tr> <td align='left'>PUSN_2</td> <td align='right'>0.128</td> <td align='right'>0.282</td> <td align='right'>0.656</td> <td align='right'>0.526</td> </tr>
+<tr> <td align='left'>PUSN_5</td> <td align='right'>0.159</td> <td align='right'>0.309</td> <td align='right'>0.610</td> <td align='right'>0.493</td> </tr>
+<tr> <td align='left'>PUSN_4</td> <td align='right'>0.145</td> <td align='right'>0.160</td> <td align='right'>0.608</td> <td align='right'>0.417</td> </tr>
+<tr> <td align='left'>PUSN_3</td> <td align='right'>0.205</td> <td align='right'>0.230</td> <td align='right'>0.600</td> <td align='right'>0.454</td> </tr>
+<tr> <td align='left'>PUSN_6</td> <td align='right'>0.192</td> <td align='right'>0.168</td> <td align='right'>0.586</td> <td align='right'>0.408</td> </tr>
+</tbody>
+</table>
+<p>Extraction Method: Principal Axis Factor Analysis.</p><p>Rotation Method: Varimax (with Kaiser Normalization).</p>
+</body>
+
+</html>

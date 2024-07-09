@@ -1,0 +1,165 @@
+------Harman's Single Factor Test------
+| Explained Variance Ratio by the first factor: 36.82% |
+################### Nested Model Comparison #########################
+
+Chi-Squared Difference Test
+
+        Df    AIC    BIC  Chisq Chisq diff    RMSEA Df diff Pr(>Chisq)    
+m1_mdl 168 395714 396148 3846.1                                           
+m0_mdl 186 396347 396657 4514.7     668.54 0.070928      18  < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+####################### Model Fit Indices ###########################
+           chisq  df pvalue rmsea   cfi   tli  srmr         aic         bic
+m1_mdl 3846.126† 168   .000 .055† .943† .929† .036  395714.474† 396147.890†
+m0_mdl 4514.662  186   .000 .057  .933  .925  .036† 396347.010  396656.593 
+
+################## Differences in Fit Indices #######################
+                df rmsea   cfi    tli   srmr     aic     bic
+m0_mdl - m1_mdl 18 0.002 -0.01 -0.004 -0.001 632.536 508.703
+
+在指定的程序包和图书馆里没有与‘bootnet’有关的说明书:
+你可以用用‘??bootnet’
+
+=== Estimated network ===
+Number of nodes: 21 
+Number of non-zero edges: 93 / 210 
+Mean weight: 0.04531478 
+Network stored in object$graph 
+ 
+Default set used: EBICglasso 
+ 
+Use plot(object) to plot estimated network 
+Use bootnet(object) to bootstrap edge weights and centrality indices 
+
+Relevant references:
+
+ 	Friedman, J. H., Hastie, T., & Tibshirani, R. (2008). Sparse inverse covariance estimation with the graphical lasso. Biostatistics, 9 (3), 432-441.
+	Foygel, R., & Drton, M. (2010). Extended Bayesian information criteria for Gaussian graphical models. 
+	Friedman, J. H., Hastie, T., & Tibshirani, R. (2014). glasso: Graphical lasso estimation of gaussian graphical models. Retrieved from https://CRAN.R-project.org/package=glasso
+	Epskamp, S., Cramer, A., Waldorp, L., Schmittmann, V. D., & Borsboom, D. (2012). qgraph: Network visualizations of relationships in psychometric data. Journal of Statistical Software, 48 (1), 1-18.
+	Epskamp, S., Borsboom, D., & Fried, E. I. (2016). Estimating psychological networks and their accuracy: a tutorial paper. arXiv preprint, arXiv:1604.08462.在指定的程序包和图书馆里没有与‘wto’有关的说明书:
+你可以用用‘??wto’
+               _                                
+platform       x86_64-w64-mingw32               
+arch           x86_64                           
+os             mingw32                          
+crt            ucrt                             
+system         x86_64, mingw32                  
+status                                          
+major          4                                
+minor          3.0                              
+year           2023                             
+month          04                               
+day            21                               
+svn rev        84292                            
+language       R                                
+version.string R version 4.3.0 (2023-04-21 ucrt)
+nickname       Already Tomorrow                 
+✔ Set working directory to "E:/ZhenJiang_BehavioralData/P1_BehavioralAddiction_NetworkAnalysis/Step_6_Visualization"
+=== Correlation Stability Analysis === 
+
+Sampling levels tested:
+   nPerson Drop%   n
+1     1796  75.0 510
+2     2355  67.2 535
+3     2914  59.4 460
+4     3472  51.7 504
+5     4031  43.9 472
+6     4590  36.1 512
+7     5149  28.3 510
+8     5707  20.6 464
+9     6266  12.8 502
+10    6825   5.0 531
+
+Maximum drop proportions to retain correlation of 0.6 in at least 95% of the samples:
+
+betweenness: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+closeness: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+strength: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+Accuracy can also be increased by increasing both 'nBoots' and 'caseN'.=== Correlation Stability Analysis === 
+
+Sampling levels tested:
+   nPerson Drop%   n
+1     1796  75.0 510
+2     2355  67.2 535
+3     2914  59.4 460
+4     3472  51.7 504
+5     4031  43.9 472
+6     4590  36.1 512
+7     5149  28.3 510
+8     5707  20.6 464
+9     6266  12.8 502
+10    6825   5.0 531
+
+Maximum drop proportions to retain correlation of 0.7 in at least 95% of the samples:
+
+betweenness: 0.672 
+  - For more accuracy, run bootnet(..., caseMin = 0.594, caseMax = 0.75) 
+
+closeness: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+strength: 0.672 
+  - For more accuracy, run bootnet(..., caseMin = 0.594, caseMax = 0.75) 
+
+Accuracy can also be increased by increasing both 'nBoots' and 'caseN'.=== Correlation Stability Analysis === 
+
+Sampling levels tested:
+   nPerson Drop%   n
+1     1796  75.0 510
+2     2355  67.2 535
+3     2914  59.4 460
+4     3472  51.7 504
+5     4031  43.9 472
+6     4590  36.1 512
+7     5149  28.3 510
+8     5707  20.6 464
+9     6266  12.8 502
+10    6825   5.0 531
+
+Maximum drop proportions to retain correlation of 0.5 in at least 95% of the samples:
+
+betweenness: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+closeness: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+strength: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+Accuracy can also be increased by increasing both 'nBoots' and 'caseN'.=== Correlation Stability Analysis === 
+
+Sampling levels tested:
+   nPerson Drop%   n
+1     1796  75.0 510
+2     2355  67.2 535
+3     2914  59.4 460
+4     3472  51.7 504
+5     4031  43.9 472
+6     4590  36.1 512
+7     5149  28.3 510
+8     5707  20.6 464
+9     6266  12.8 502
+10    6825   5.0 531
+
+Maximum drop proportions to retain correlation of 0.6 in at least 95% of the samples:
+
+betweenness: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+closeness: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+strength: 0.75 (CS-coefficient is highest level tested)
+  - For more accuracy, run bootnet(..., caseMin = 0.672, caseMax = 1) 
+
+Accuracy can also be increased by increasing both 'nBoots' and 'caseN'.

@@ -1,0 +1,87 @@
+
+Reliability Analysis
+
+Summary:
+Total Items: 6
+Scale Range: 1 ~ 5
+Total Cases: 7184
+Valid Cases: 7184 (100.0%)
+
+Scale Statistics:
+Mean = 2.384
+S.D. = 0.783
+Cronbach’s α = 0.834
+McDonald’s ω = 0.834
+
+Item Statistics (Cronbach’s α If Item Deleted):
+─────────────────────────────────────────────────
+         Mean    S.D. Item-Rest Cor. Cronbach’s α
+─────────────────────────────────────────────────
+PUSN_1  2.494 (1.080)          0.619        0.804
+PUSN_2  2.625 (1.082)          0.658        0.796
+PUSN_3  2.282 (1.061)          0.608        0.807
+PUSN_4  2.227 (1.036)          0.572        0.814
+PUSN_5  2.512 (1.139)          0.623        0.804
+PUSN_6  2.165 (0.953)          0.561        0.816
+─────────────────────────────────────────────────
+Item-Rest Cor. = Corrected Item-Total Correlation
+
+
+Reliability Analysis
+
+Summary:
+Total Items: 6
+Scale Range: 1 ~ 6
+Total Cases: 7184
+Valid Cases: 7184 (100.0%)
+
+Scale Statistics:
+Mean = 3.554
+S.D. = 1.029
+Cronbach’s α = 0.834
+McDonald’s ω = 0.837
+
+Item Statistics (Cronbach’s α If Item Deleted):
+────────────────────────────────────────────────
+        Mean    S.D. Item-Rest Cor. Cronbach’s α
+────────────────────────────────────────────────
+PUS_1  3.560 (1.446)          0.524        0.825
+PUS_2  3.356 (1.502)          0.585        0.813
+PUS_3  4.096 (1.293)          0.585        0.812
+PUS_4  3.699 (1.337)          0.626        0.804
+PUS_5  3.280 (1.412)          0.687        0.791
+PUS_6  3.330 (1.348)          0.648        0.799
+────────────────────────────────────────────────
+Item-Rest Cor. = Corrected Item-Total Correlation
+
+
+Reliability Analysis
+
+Summary:
+Total Items: 9
+Scale Range: 1 ~ 5
+Total Cases: 7184
+Valid Cases: 7184 (100.0%)
+
+Scale Statistics:
+Mean = 1.891
+S.D. = 0.723
+Cronbach’s α = 0.895
+McDonald’s ω = 0.898
+
+Item Statistics (Cronbach’s α If Item Deleted):
+─────────────────────────────────────────────────
+         Mean    S.D. Item-Rest Cor. Cronbach’s α
+─────────────────────────────────────────────────
+PUVG_1  2.012 (1.048)          0.702        0.880
+PUVG_2  1.782 (0.919)          0.721        0.879
+PUVG_3  2.107 (1.061)          0.694        0.881
+PUVG_4  1.892 (0.976)          0.683        0.882
+PUVG_5  1.728 (0.908)          0.643        0.885
+PUVG_6  1.865 (0.998)          0.647        0.885
+PUVG_7  1.578 (0.812)          0.626        0.887
+PUVG_8  2.463 (1.196)          0.634        0.888
+PUVG_9  1.592 (0.850)          0.598        0.888
+─────────────────────────────────────────────────
+Item-Rest Cor. = Corrected Item-Total Correlation
+

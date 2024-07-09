@@ -1,0 +1,199 @@
+              lhs op    rhs        mi     epc sepc.lv sepc.all sepc.nox
+93  Preoccupation =~ PUSN_6 15481.542  90.533  57.544   60.864   60.864
+130      Escapsim =~ PUVG_9  9910.139 -10.564  -7.806   -9.196   -9.196
+111   LostControl =~ PUSN_6  6905.951  20.880  16.601   17.559   17.559
+121      Escapsim =~  PUS_5  4433.540  33.162  24.505   17.555   17.555
+194   Impairments =~  PUS_3  3932.921 -18.390  -7.613   -5.927   -5.927
+115      Escapsim =~  PUS_1  2048.842   5.478   4.048    2.808    2.808
+114   LostControl =~ PUVG_7  1848.107  -4.483  -3.564   -4.404   -4.404
+175     Conflicts =~  PUS_3  1717.754  -4.951  -3.666   -2.854   -2.854
+168     Tolerance =~ PUVG_7  1555.781  -4.214  -2.900   -3.584   -3.584
+127      Escapsim =~  PUS_2  1520.179   3.831   2.831    1.897    1.897
+257        PUSN_1 ~~ PUSN_2  1493.259   0.443   0.443    0.487    0.487
+166     Tolerance =~ PUVG_9  1437.413  -2.634  -1.813   -2.136   -2.136
+139    Withdrawal =~  PUS_3  1400.223  -3.519  -3.093   -2.408   -2.408
+82  Preoccupation =~  PUS_3  1389.854  -4.219  -2.681   -2.088   -2.088
+118      Escapsim =~  PUS_6  1230.972   4.998   3.693    2.752    2.752
+375         PUS_5 ~~  PUS_2  1191.262   0.645   0.645    0.459    0.459
+79  Preoccupation =~  PUS_6  1184.708 -19.030 -12.096   -9.013   -9.013
+145    Withdrawal =~  PUS_2  1110.240   2.893   2.542    1.704    1.704
+100   LostControl =~  PUS_3  1107.184  -2.793  -2.221   -1.729   -1.729
+383        PUSN_5 ~~ PUSN_2  1003.876   0.354   0.354    0.401    0.401
+
+Fit Measures (lavaan):
+χ²(161, N = 7184) = 17859.51, p < 1e-99 ***
+χ²/df = 110.93
+AIC = 408921.55 (Akaike Information Criterion)
+BIC = 409403.12 (Bayesian Information Criterion)
+CFI = 0.73 (Comparative Fit Index)
+TLI = 0.64 (Tucker-Lewis Index; Non-Normed Fit Index, NNFI)
+NFI = 0.72 (Normed Fit Index)
+IFI = 0.73 (Incremental Fit Index)
+GFI = 0.71 (Goodness-of-Fit Index)
+AGFI = 0.59 (Adjusted Goodness-of-Fit Index)
+RMSEA = 0.12, 90% CI [0.12, 0.13] (Root Mean Square Error of Approximation)
+SRMR = 0.10 (Standardized Root Mean Square Residual)
+
+Model Estimates (lavaan):
+─────────────────────────────────────────────────────────────────────────────────────────
+                                   Estimate   S.E.     z     p     BootLLCI BootULCI Beta
+─────────────────────────────────────────────────────────────────────────────────────────
+Latent Variables:                                                                        
+  Preoccupation =~ PUS_1               1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.44
+  Preoccupation =~ PUSN_1              0.73 (0.03) 28.18 <.001 ***     0.68     0.78 0.43
+  Preoccupation =~ PUVG_1              0.95 (0.03) 30.36 <.001 ***     0.90     1.02 0.58
+  LostControl =~ PUS_6                 1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.59
+  LostControl =~ PUSN_4                0.59 (0.02) 30.14 <.001 ***     0.55     0.63 0.45
+  LostControl =~ PUVG_4                0.81 (0.03) 30.66 <.001 ***     0.76     0.86 0.66
+  Escapsim =~ PUS_3                    1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.58
+  Escapsim =~ PUSN_3                   0.78 (0.02) 32.16 <.001 ***     0.74     0.83 0.55
+  Escapsim =~ PUVG_8                   1.05 (0.03) 33.90 <.001 ***     0.99     1.11 0.65
+  Withdrawal =~ PUS_5                  1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.63
+  Withdrawal =~ PUSN_5                 0.70 (0.02) 43.36 <.001 ***     0.67     0.74 0.55
+  Withdrawal =~ PUVG_2                 0.71 (0.02) 31.83 <.001 ***     0.67     0.76 0.69
+  Tolerance =~ PUS_4                   1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.52
+  Tolerance =~ PUSN_2                  0.79 (0.02) 33.83 <.001 ***     0.75     0.84 0.50
+  Tolerance =~ PUVG_3                  0.94 (0.03) 31.44 <.001 ***     0.89     1.00 0.61
+  Conflicts =~ PUS_2                   1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.50
+  Conflicts =~ PUVG_6                  0.73 (0.03) 28.85 <.001 ***     0.69     0.79 0.54
+  Impairments =~ PUSN_6                1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.44
+  Impairments =~ PUVG_9                1.27 (0.06) 22.54 <.001 ***     1.17     1.39 0.62
+  Others =~ PUVG_5                     1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.71
+  Others =~ PUVG_7                     0.88 (0.02) 39.52 <.001 ***     0.84     0.92 0.70
+(Co)variances:                                                                           
+  PUS_1 ~~ PUS_1                       1.67 (0.03) 61.43 <.001 ***     1.62     1.72 0.81
+  PUSN_1 ~~ PUSN_1                     0.95 (0.02) 57.42 <.001 ***     0.92     0.98 0.81
+  PUVG_1 ~~ PUVG_1                     0.72 (0.02) 43.47 <.001 ***     0.69     0.76 0.66
+  PUS_6 ~~ PUS_6                       1.17 (0.03) 42.27 <.001 ***     1.12     1.22 0.65
+  PUSN_4 ~~ PUSN_4                     0.84 (0.02) 51.88 <.001 ***     0.81     0.88 0.79
+  PUVG_4 ~~ PUVG_4                     0.53 (0.01) 36.06 <.001 ***     0.51     0.56 0.56
+  PUS_3 ~~ PUS_3                       1.10 (0.02) 46.06 <.001 ***     1.06     1.15 0.67
+  PUSN_3 ~~ PUSN_3                     0.78 (0.02) 49.03 <.001 ***     0.75     0.82 0.70
+  PUVG_8 ~~ PUVG_8                     0.82 (0.02) 40.89 <.001 ***     0.78     0.86 0.58
+  PUS_5 ~~ PUS_5                       1.18 (0.03) 41.21 <.001 ***     1.12     1.23 0.60
+  PUSN_5 ~~ PUSN_5                     0.90 (0.02) 46.95 <.001 ***     0.86     0.93 0.70
+  PUVG_2 ~~ PUVG_2                     0.44 (0.01) 38.08 <.001 ***     0.42     0.47 0.53
+  PUS_4 ~~ PUS_4                       1.31 (0.02) 54.64 <.001 ***     1.26     1.36 0.73
+  PUSN_2 ~~ PUSN_2                     0.87 (0.02) 50.97 <.001 ***     0.84     0.90 0.75
+  PUVG_3 ~~ PUVG_3                     0.70 (0.02) 43.75 <.001 ***     0.67     0.73 0.63
+  PUS_2 ~~ PUS_2                       1.68 (0.03) 53.68 <.001 ***     1.62     1.74 0.75
+  PUVG_6 ~~ PUVG_6                     0.70 (0.02) 37.64 <.001 ***     0.66     0.74 0.70
+  PUSN_6 ~~ PUSN_6                     0.72 (0.01) 48.33 <.001 ***     0.69     0.75 0.81
+  PUVG_9 ~~ PUVG_9                     0.45 (0.02) 27.24 <.001 ***     0.41     0.48 0.62
+  PUVG_5 ~~ PUVG_5                     0.41 (0.01) 29.28 <.001 ***     0.38     0.44 0.50
+  PUVG_7 ~~ PUVG_7                     0.34 (0.01) 31.48 <.001 ***     0.32     0.36 0.51
+  Preoccupation ~~ Preoccupation       0.40 (0.02) 16.34 <.001 ***     0.36     0.45 1.00
+  LostControl ~~ LostControl           0.63 (0.03) 21.26 <.001 ***     0.57     0.69 1.00
+  Escapsim ~~ Escapsim                 0.55 (0.03) 20.79 <.001 ***     0.50     0.60 1.00
+  Withdrawal ~~ Withdrawal             0.77 (0.03) 23.38 <.001 ***     0.71     0.84 1.00
+  Tolerance ~~ Tolerance               0.47 (0.02) 19.05 <.001 ***     0.43     0.52 1.00
+  Conflicts ~~ Conflicts               0.55 (0.03) 17.67 <.001 ***     0.49     0.61 1.00
+  Impairments ~~ Impairments           0.17 (0.01) 12.93 <.001 ***     0.15     0.20 1.00
+  Others ~~ Others                     0.41 (0.02) 24.20 <.001 ***     0.38     0.45 1.00
+  Preoccupation ~~ LostControl         0.54 (0.02) 23.71 <.001 ***     0.50     0.59 1.08
+  Preoccupation ~~ Escapsim            0.53 (0.02) 23.62 <.001 ***     0.48     0.57 1.12
+  Preoccupation ~~ Withdrawal          0.64 (0.02) 25.77 <.001 ***     0.59     0.69 1.14
+  Preoccupation ~~ Tolerance           0.58 (0.02) 24.41 <.001 ***     0.54     0.63 1.33
+  Preoccupation ~~ Conflicts           0.57 (0.02) 25.22 <.001 ***     0.53     0.62 1.22
+  Preoccupation ~~ Impairments         0.26 (0.01) 19.97 <.001 ***     0.24     0.29 1.00
+  Preoccupation ~~ Others              0.37 (0.01) 28.33 <.001 ***     0.35     0.40 0.91
+  LostControl ~~ Escapsim              0.53 (0.02) 24.10 <.001 ***     0.49     0.58 0.91
+  LostControl ~~ Withdrawal            0.72 (0.03) 26.02 <.001 ***     0.67     0.78 1.04
+  LostControl ~~ Tolerance             0.60 (0.03) 22.93 <.001 ***     0.55     0.65 1.10
+  LostControl ~~ Conflicts             0.64 (0.03) 25.17 <.001 ***     0.59     0.69 1.09
+  LostControl ~~ Impairments           0.33 (0.02) 20.25 <.001 ***     0.30     0.36 1.01
+  LostControl ~~ Others                0.46 (0.01) 32.97 <.001 ***     0.43     0.49 0.90
+  Escapsim ~~ Withdrawal               0.63 (0.02) 26.19 <.001 ***     0.58     0.67 0.96
+  Escapsim ~~ Tolerance                0.57 (0.02) 25.38 <.001 ***     0.52     0.61 1.12
+  Escapsim ~~ Conflicts                0.59 (0.02) 24.86 <.001 ***     0.55     0.64 1.09
+  Escapsim ~~ Impairments              0.25 (0.01) 18.77 <.001 ***     0.22     0.27 0.81
+  Escapsim ~~ Others                   0.34 (0.01) 29.59 <.001 ***     0.32     0.36 0.71
+  Withdrawal ~~ Tolerance              0.67 (0.03) 26.49 <.001 ***     0.62     0.72 1.11
+  Withdrawal ~~ Conflicts              0.76 (0.03) 24.25 <.001 ***     0.70     0.82 1.17
+  Withdrawal ~~ Impairments            0.34 (0.02) 20.56 <.001 ***     0.31     0.37 0.93
+  Withdrawal ~~ Others                 0.49 (0.01) 34.66 <.001 ***     0.46     0.51 0.86
+  Tolerance ~~ Conflicts               0.60 (0.02) 25.09 <.001 ***     0.55     0.64 1.17
+  Tolerance ~~ Impairments             0.27 (0.01) 19.13 <.001 ***     0.24     0.30 0.94
+  Tolerance ~~ Others                  0.38 (0.01) 28.67 <.001 ***     0.35     0.40 0.85
+  Conflicts ~~ Impairments             0.34 (0.02) 21.27 <.001 ***     0.31     0.37 1.11
+  Conflicts ~~ Others                  0.50 (0.01) 34.75 <.001 ***     0.47     0.53 1.06
+  Impairments ~~ Others                0.29 (0.01) 25.86 <.001 ***     0.27     0.31 1.09
+─────────────────────────────────────────────────────────────────────────────────────────
+Note. Bias-Corrected and Accelerated (BCa) Percentile Bootstrap Confidence Interval (CI) and SE.
+
+✔ Table saved to "E:/ZhenJiang_BehavioralData/P1_BehavioralAddiction_NetworkAnalysis/Step_3_Community_Sturcture_Identifying/../Res_2_Results/Res_CFA_TestHypothesis.doc"
+
+
+Fit Measures (lavaan):
+χ²(186, N = 7184) = 4430.02, p < 1e-99 ***
+χ²/df = 23.82
+AIC = 395442.06 (Akaike Information Criterion)
+BIC = 395751.65 (Bayesian Information Criterion)
+CFI = 0.93 (Comparative Fit Index)
+TLI = 0.93 (Tucker-Lewis Index; Non-Normed Fit Index, NNFI)
+NFI = 0.93 (Normed Fit Index)
+IFI = 0.93 (Incremental Fit Index)
+GFI = 0.93 (Goodness-of-Fit Index)
+AGFI = 0.92 (Adjusted Goodness-of-Fit Index)
+RMSEA = 0.06, 90% CI [0.05, 0.06] (Root Mean Square Error of Approximation)
+SRMR = 0.04 (Standardized Root Mean Square Residual)
+
+Model Estimates (lavaan):
+───────────────────────────────────────────────────────────────────────────
+                     Estimate   S.E.     z     p     BootLLCI BootULCI Beta
+───────────────────────────────────────────────────────────────────────────
+Latent Variables:                                                          
+  PUSN =~ PUSN_1         1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.68
+  PUSN =~ PUSN_2         1.09 (0.02) 60.63 <.001 ***     1.06     1.13 0.74
+  PUSN =~ PUSN_3         0.97 (0.02) 46.73 <.001 ***     0.93     1.02 0.67
+  PUSN =~ PUSN_4         0.87 (0.02) 40.09 <.001 ***     0.83     0.91 0.62
+  PUSN =~ PUSN_5         1.10 (0.02) 50.01 <.001 ***     1.06     1.15 0.71
+  PUSN =~ PUSN_6         0.79 (0.02) 37.73 <.001 ***     0.75     0.83 0.61
+  PUS =~ PUS_1           1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.58
+  PUS =~ PUS_2           1.18 (0.03) 40.58 <.001 ***     1.12     1.23 0.66
+  PUS =~ PUS_3           0.96 (0.02) 44.26 <.001 ***     0.92     1.00 0.63
+  PUS =~ PUS_4           1.10 (0.02) 45.78 <.001 ***     1.06     1.15 0.69
+  PUS =~ PUS_5           1.28 (0.03) 45.35 <.001 ***     1.22     1.33 0.77
+  PUS =~ PUS_6           1.16 (0.03) 45.69 <.001 ***     1.11     1.21 0.73
+  PUVG =~ PUVG_1         1.00 (0.00)   Inf <.001 ***      NaN      NaN 0.74
+  PUVG =~ PUVG_2         0.91 (0.01) 60.95 <.001 ***     0.88     0.94 0.77
+  PUVG =~ PUVG_3         1.00 (0.01) 67.65 <.001 ***     0.97     1.03 0.74
+  PUVG =~ PUVG_4         0.91 (0.02) 55.95 <.001 ***     0.88     0.94 0.73
+  PUVG =~ PUVG_5         0.80 (0.02) 44.86 <.001 ***     0.76     0.83 0.68
+  PUVG =~ PUVG_6         0.87 (0.02) 52.63 <.001 ***     0.84     0.91 0.68
+  PUVG =~ PUVG_7         0.69 (0.02) 40.65 <.001 ***     0.66     0.73 0.67
+  PUVG =~ PUVG_8         1.04 (0.02) 60.49 <.001 ***     1.01     1.07 0.68
+  PUVG =~ PUVG_9         0.69 (0.02) 37.39 <.001 ***     0.66     0.73 0.63
+(Co)variances:                                                             
+  PUSN_1 ~~ PUSN_1       0.63 (0.02) 40.08 <.001 ***     0.60     0.66 0.54
+  PUSN_2 ~~ PUSN_2       0.53 (0.01) 38.05 <.001 ***     0.50     0.56 0.45
+  PUSN_3 ~~ PUSN_3       0.61 (0.01) 42.26 <.001 ***     0.58     0.64 0.55
+  PUSN_4 ~~ PUSN_4       0.66 (0.02) 43.19 <.001 ***     0.63     0.69 0.62
+  PUSN_5 ~~ PUSN_5       0.63 (0.02) 38.74 <.001 ***     0.60     0.66 0.49
+  PUSN_6 ~~ PUSN_6       0.56 (0.01) 44.15 <.001 ***     0.54     0.58 0.63
+  PUS_1 ~~ PUS_1         1.37 (0.03) 52.73 <.001 ***     1.32     1.42 0.66
+  PUS_2 ~~ PUS_2         1.25 (0.03) 46.84 <.001 ***     1.19     1.30 0.56
+  PUS_3 ~~ PUS_3         1.00 (0.02) 47.34 <.001 ***     0.96     1.04 0.60
+  PUS_4 ~~ PUS_4         0.93 (0.02) 43.81 <.001 ***     0.89     0.97 0.52
+  PUS_5 ~~ PUS_5         0.79 (0.02) 35.80 <.001 ***     0.75     0.84 0.41
+  PUS_6 ~~ PUS_6         0.85 (0.02) 38.98 <.001 ***     0.81     0.89 0.47
+  PUVG_1 ~~ PUVG_1       0.49 (0.01) 35.44 <.001 ***     0.46     0.52 0.45
+  PUVG_2 ~~ PUVG_2       0.34 (0.01) 33.75 <.001 ***     0.32     0.36 0.41
+  PUVG_3 ~~ PUVG_3       0.51 (0.01) 38.26 <.001 ***     0.49     0.54 0.46
+  PUVG_4 ~~ PUVG_4       0.45 (0.01) 36.95 <.001 ***     0.42     0.47 0.47
+  PUVG_5 ~~ PUVG_5       0.44 (0.01) 37.20 <.001 ***     0.42     0.46 0.53
+  PUVG_6 ~~ PUVG_6       0.53 (0.01) 35.77 <.001 ***     0.51     0.56 0.54
+  PUVG_7 ~~ PUVG_7       0.36 (0.01) 40.34 <.001 ***     0.35     0.38 0.56
+  PUVG_8 ~~ PUVG_8       0.77 (0.02) 48.43 <.001 ***     0.74     0.80 0.54
+  PUVG_9 ~~ PUVG_9       0.43 (0.01) 37.74 <.001 ***     0.41     0.46 0.60
+  PUSN ~~ PUSN           0.53 (0.02) 29.42 <.001 ***     0.50     0.57 1.00
+  PUS ~~ PUS             0.71 (0.03) 25.10 <.001 ***     0.66     0.77 1.00
+  PUVG ~~ PUVG           0.60 (0.02) 33.30 <.001 ***     0.57     0.64 1.00
+  PUSN ~~ PUS            0.42 (0.01) 30.55 <.001 ***     0.39     0.44 0.67
+  PUSN ~~ PUVG           0.28 (0.01) 25.83 <.001 ***     0.26     0.30 0.49
+  PUS ~~ PUVG            0.38 (0.01) 28.33 <.001 ***     0.35     0.41 0.58
+───────────────────────────────────────────────────────────────────────────
+Note. Bias-Corrected and Accelerated (BCa) Percentile Bootstrap Confidence Interval (CI) and SE.
+
+✔ Table saved to "E:/ZhenJiang_BehavioralData/P1_BehavioralAddiction_NetworkAnalysis/Step_3_Community_Sturcture_Identifying/../Res_2_Results/Res_CFA_DataDriven.doc"
+

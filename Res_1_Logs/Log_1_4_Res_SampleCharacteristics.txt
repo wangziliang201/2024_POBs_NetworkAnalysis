@@ -1,0 +1,25 @@
+
+--------Summary descriptives table by 'Biological Sex'---------
+
+_______________________________________________________________________________ 
+                                [ALL]         Male         Female     p.overall 
+                               N=7184        N=3702        N=3482               
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ 
+Age (years)                 17.08 (1.24)  17.18 (1.28)  16.96 (1.18)   <0.001   
+Current Educational Status:                                            <0.001   
+    General High School     930 (12.95%)  460 (12.43%)  470 (13.50%)            
+    Vocational High School  4822 (67.12%) 2309 (62.37%) 2513 (72.17%)           
+    College                 1432 (19.93%) 933 (25.20%)  499 (14.33%)            
+PUSN                        14.30 (4.70)  13.69 (4.73)  14.96 (4.58)   <0.001   
+PUS                         21.32 (6.17)  20.63 (6.26)  22.05 (5.99)   <0.001   
+PUVG                        17.02 (6.51)  18.28 (6.56)  15.68 (6.18)   <0.001   
+Group:                                                                 <0.001   
+    PUS                     2648 (36.86%) 1247 (33.68%) 1401 (40.24%)           
+    Non-PUS                 4536 (63.14%) 2455 (66.32%) 2081 (59.76%)           
+¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ 
+✔ Table saved to "E:/ZhenJiang_BehavioralData/P1_BehavioralAddiction_NetworkAnalysis/Step_1_DataPreprocessing/../Res_2_Res✔ Table saved to "E:/ZhenJiang_
+
+vioralData/P1_BehavioralAddiction_NetworkAnalysis/Step_1_DataPreprocessing/../Res_2_Res✔ Table saved to "E:/ZhenJiang_
+
+vioralData/P1_BehavioralAddiction_NetworkAnalysis/Step_1_DataPreprocessing/../Res_2_Results/T_DescriptiveStatistics.doc"
+

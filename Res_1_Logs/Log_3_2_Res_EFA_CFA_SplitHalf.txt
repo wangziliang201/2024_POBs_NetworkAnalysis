@@ -1,0 +1,129 @@
+
+Explanatory Factor Analysis
+
+Summary:
+Total Items: 21
+Scale Range: 0.979288289271871 ~ 9.13717360837253
+Total Cases: 3592
+Valid Cases: 3592 (100.0%)
+
+Extraction Method:
+- Principal Axis Factor Analysis
+Rotation Method:
+- Varimax (with Kaiser Normalization)
+
+KMO and Bartlett's Test:
+- Kaiser-Meyer-Olkin (KMO) Measure of Sampling Adequacy: MSA = 0.942
+- Bartlett's Test of Sphericity: Approx. χ²(210) = 33276.69, p < 1e-99 ***
+
+Total Variance Explained:
+────────────────────────────────────────────────────────────────────────────────
+           Eigenvalue Variance % Cumulative % SS Loading Variance % Cumulative %
+────────────────────────────────────────────────────────────────────────────────
+Factor 1        7.764     36.974       36.974      4.430     21.096       21.096
+Factor 2        2.486     11.840       48.813      2.897     13.797       34.893
+Factor 3        1.482      7.057       55.870      2.856     13.602       48.495
+Factor 4        0.950      4.524       60.394                                   
+Factor 5        0.710      3.382       63.776                                   
+Factor 6        0.700      3.333       67.108                                   
+Factor 7        0.640      3.046       70.154                                   
+Factor 8        0.558      2.659       72.813                                   
+Factor 9        0.554      2.637       75.451                                   
+Factor 10       0.529      2.518       77.969                                   
+Factor 11       0.512      2.440       80.409                                   
+Factor 12       0.489      2.327       82.736                                   
+Factor 13       0.481      2.291       85.027                                   
+Factor 14       0.471      2.241       87.268                                   
+Factor 15       0.423      2.012       89.280                                   
+Factor 16       0.415      1.976       91.257                                   
+Factor 17       0.395      1.879       93.136                                   
+Factor 18       0.384      1.826       94.962                                   
+Factor 19       0.381      1.816       96.778                                   
+Factor 20       0.354      1.684       98.462                                   
+Factor 21       0.323      1.538      100.000                                   
+────────────────────────────────────────────────────────────────────────────────
+
+Factor Loadings (Rotated) (Sorted by Size):
+─────────────────────────────────────
+          PA2   PA3   PA1 Communality
+─────────────────────────────────────
+PUVG_2  0.722 0.208 0.170       0.594
+PUVG_1  0.706 0.218 0.112       0.558
+PUVG_4  0.696 0.161 0.171       0.539
+PUVG_3  0.683 0.227 0.123       0.533
+PUVG_6  0.661 0.161 0.100       0.473
+PUVG_5  0.660 0.125 0.162       0.477
+PUVG_7  0.645 0.155 0.189       0.475
+PUVG_9  0.633 0.066 0.146       0.426
+PUVG_8  0.615 0.253 0.126       0.458
+PUS_5   0.225 0.675 0.297       0.594
+PUS_4   0.190 0.644 0.223       0.500
+PUS_3   0.174 0.625 0.180       0.452
+PUS_6   0.213 0.620 0.277       0.507
+PUS_1   0.181 0.570 0.168       0.386
+PUS_2   0.212 0.561 0.259       0.427
+PUSN_1  0.108 0.168 0.667       0.485
+PUSN_2  0.128 0.282 0.656       0.526
+PUSN_5  0.159 0.309 0.610       0.493
+PUSN_4  0.145 0.160 0.608       0.417
+PUSN_3  0.205 0.230 0.600       0.454
+PUSN_6  0.192 0.168 0.586       0.408
+─────────────────────────────────────
+Communality = Sum of Squared (SS) Factor Loadings
+(Uniqueness = 1 - Communality)
+
+✔ Table saved to "E:/ZhenJiang_BehavioralData/P1_BehavioralAddiction_NetworkAnalysis/Step_3_Community_Sturcture_Identifying/../Res_2_Results/T_Res_EFA_DiscoverySample.doc"
+
+
+Model Syntax (lavaan):
+PUSN =~ PUSN_1 + PUSN_2 + PUSN_3 + PUSN_4 + PUSN_5 + PUSN_6
+PUS =~ PUS_1 + PUS_2 + PUS_3 + PUS_4 + PUS_5 + PUS_6
+PUVG =~ PUVG_1 + PUVG_2 + PUVG_3 + PUVG_4 + PUVG_5 + PUVG_6 + PUVG_7 + PUVG_8 + PUVG_9
+
+Fit Measures (lavaan):
+χ²(186, N = 3592) = 2387.703, p < 1e-99 ***
+χ²/df = 12.837
+AIC = 198477.214 (Akaike Information Criterion)
+BIC = 198755.605 (Bayesian Information Criterion)
+CFI = 0.930 (Comparative Fit Index)
+TLI = 0.921 (Tucker-Lewis Index; Non-Normed Fit Index, NNFI)
+NFI = 0.925 (Normed Fit Index)
+IFI = 0.930 (Incremental Fit Index)
+GFI = 0.930 (Goodness-of-Fit Index)
+AGFI = 0.913 (Adjusted Goodness-of-Fit Index)
+RMSEA = 0.057, 90% CI [0.055, 0.059] (Root Mean Square Error of Approximation)
+SRMR = 0.038 (Standardized Root Mean Square Residual)
+
+Model Estimates (lavaan):
+──────────────────────────────────────────────────────────────────────
+                   Estimate    S.E.      z     p      LLCI  ULCI  Beta
+──────────────────────────────────────────────────────────────────────
+Latent Variables:                                                     
+  PUSN =~ PUSN_1      0.718 (0.017) 42.634 <.001 *** 0.685 0.751 0.673
+  PUSN =~ PUSN_2      0.799 (0.016) 48.782 <.001 *** 0.767 0.831 0.745
+  PUSN =~ PUSN_3      0.705 (0.017) 42.150 <.001 *** 0.673 0.738 0.667
+  PUSN =~ PUSN_4      0.622 (0.017) 37.523 <.001 *** 0.589 0.654 0.609
+  PUSN =~ PUSN_5      0.808 (0.018) 45.973 <.001 *** 0.774 0.843 0.713
+  PUSN =~ PUSN_6      0.567 (0.015) 36.935 <.001 *** 0.537 0.597 0.601
+  PUS =~ PUS_1        0.811 (0.024) 34.322 <.001 *** 0.765 0.858 0.563
+  PUS =~ PUS_2        0.971 (0.024) 41.218 <.001 *** 0.924 1.017 0.653
+  PUS =~ PUS_3        0.802 (0.021) 38.397 <.001 *** 0.761 0.842 0.617
+  PUS =~ PUS_4        0.911 (0.021) 43.828 <.001 *** 0.870 0.951 0.685
+  PUS =~ PUS_5        1.050 (0.021) 50.212 <.001 *** 1.009 1.091 0.757
+  PUS =~ PUS_6        0.971 (0.020) 47.408 <.001 *** 0.931 1.011 0.726
+  PUVG =~ PUVG_1      0.777 (0.016) 49.558 <.001 *** 0.746 0.808 0.735
+  PUVG =~ PUVG_2      0.703 (0.013) 52.468 <.001 *** 0.676 0.729 0.766
+  PUVG =~ PUVG_3      0.782 (0.016) 49.497 <.001 *** 0.751 0.813 0.735
+  PUVG =~ PUVG_4      0.711 (0.015) 48.337 <.001 *** 0.683 0.740 0.722
+  PUVG =~ PUVG_5      0.616 (0.014) 45.022 <.001 *** 0.589 0.643 0.685
+  PUVG =~ PUVG_6      0.691 (0.015) 44.581 <.001 *** 0.660 0.721 0.680
+  PUVG =~ PUVG_7      0.516 (0.012) 41.784 <.001 *** 0.491 0.540 0.647
+  PUVG =~ PUVG_8      0.802 (0.018) 43.958 <.001 *** 0.766 0.837 0.673
+  PUVG =~ PUVG_9      0.535 (0.013) 40.485 <.001 *** 0.509 0.561 0.631
+──────────────────────────────────────────────────────────────────────
+Note. Raw (Standard) Confidence Interval (CI) and SE.
+
+✔ Table saved to "E:/ZhenJiang_BehavioralData/P1_BehavioralAddiction_NetworkAnalysis/Step_3_Community_Sturcture_Identifying/../Res_2_Results/T_Res_CFA_ValidationSample.doc"
+
+Estimator: ML
+
